@@ -47,7 +47,7 @@ along with your generous $4US and you will receive a copy of the files
 plus other latest software produced by me.
 
 
-John Pericos (john.pericos@gmail.com)
+John Pericos
 http://www.mcs.vuw.ac.nz
 22:11 10/05/98
 
