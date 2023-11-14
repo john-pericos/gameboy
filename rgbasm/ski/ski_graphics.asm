@@ -206,4 +206,4 @@ DB $FF,$3C,$FF,$66,$FF,$63,$FF,$66
 DB $FF,$7C,$FF,$66,$FF,$63,$FE,$40
 
 
-; End of SKI.Z80
+; End of SKI.asm

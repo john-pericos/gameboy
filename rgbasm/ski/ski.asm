@@ -645,17 +645,17 @@ Set_title:
  ret
 
 ; Standard Library
-include "stdlib.z80"
+include "stdlib.asm"
 
 ; Graphics
-include "ski_graphics.z80"
+include "ski_graphics.asm"
 
 ; Font
-include "snow_font.z80"
+include "snow_font.asm"
 
 ; Music
-include "music_player.z80"
+include "music_player.asm"
 
 ; Level Map [see file for details]
-include "level_map.z80"
+include "level_map.asm"
 	
