@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Build from the main source file (cat.z80)
+# Build from the main source file (cat.asm)
 # Example To Run: ./build_and_run.sh cat
 # Make sure you have in your system PATH the following directories
 # ~/Gameboy/rgdbs
@@ -14,7 +14,7 @@ compile=$1
 echo "Compile [$1]"
 
 # rgbasm (assembler)
-rgbasm -o$compile.obj $compile.z80
+rgbasm -o$compile.obj $compile.asm
 if [ $? -ne 0 ]; then
     echo "Problem in rgbam"
     exit 1

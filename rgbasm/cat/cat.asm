@@ -413,13 +413,13 @@ sprite:
 DB $88,$48,$64,$00,$88,$50,$66,$00,$88,$58,$68,$00
 
 sprite_data:
-include "sprites.z80"
+include "sprites.asm"
 
 backdrop_gfx:
-include "backdrop_gfx.z80"
+include "backdrop_gfx.asm"
 
 backdrop_map:
-include "backdrop_map.z80"
+include "backdrop_map.asm"
 
 
 ;============================================================================
